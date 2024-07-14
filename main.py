@@ -10,5 +10,5 @@ def index():
     gif_url = get_gif_url(tag)
     return render_template('index.html', gif_url=gif_url)
 
-if __name__ == '__main__':
-    app.run(debuf=False, host='0.0.0.0')
+#if __name__ == '__main__':
+#    app.run(debuf=False, host='0.0.0.0')
